@@ -1,0 +1,81 @@
+em {
+  font-size: 5rem;
+  font-style: normal;
+}
+
+.html-em {
+  color: rgba(169, 214, 33, 0.94);
+  font-size: 3rem;
+}
+
+p.active {
+  font-size: 10rem;
+  cursor: pointer;
+}
+
+p .active {
+}
+
+#thisisap {
+  font-size: 3.7rem;
+  font-style: italic;
+}
+
+table,
+th,
+td {
+  border: 1px solid grey;
+  border-collapse: collapse;
+  text-align: center;
+  font-weight: bold;
+  font-style: italic;
+}
+
+#mytable {
+  color: orange;
+}
+
+.mytable_class {
+  background: rgba(162, 238, 40, 0.855);
+}
+
+/* ul.info li {
+  list-style: none;
+} */
+
+ul.info > li {
+  list-style: none;
+}
+
+/* ul.info > li li {
+  list-style: none;
+} */
+
+ul.info > li li:nth-child(2) {
+  list-style: none;
+}
+
+ol li a[target="_blank"] {
+  color: yellow;
+}
+
+ol li a[href="https://google.com"]
+{
+  color: aquamarine;
+}
+
+ol li a[href*="google"] {
+  color: bisque;
+}
+
+ol li a[href*="httpss"] {
+  color: black;
+}
+
+ol li a[href$=".com.au"] {
+  background: aquamarine;
+}
+
+ol li a[href*="google"][href$=".com.au"] {
+  background: #666;
+}
